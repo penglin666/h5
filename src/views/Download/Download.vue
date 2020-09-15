@@ -1,0 +1,13 @@
+<template>
+  <div class="download">下载</div>
+</template>
+
+<script>
+export default {
+
+}
+</script>
+
+<style>
+
+</style>
