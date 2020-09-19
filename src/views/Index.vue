@@ -20,7 +20,7 @@ export default {
     Footer
   },
   created() {
-    (this as any).$router.push("/download");
+    (this as any).$router.push("/home");
   }
 };
 </script>

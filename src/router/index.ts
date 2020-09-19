@@ -7,6 +7,7 @@ const originalPush = VueRouter.prototype.push
 VueRouter.prototype.push = function push(location) {
   return originalPush.call(this, location).catch((err: any) => err)
 }
+// VueRouter.prototype.push=(location)=>originalPush.call(this as any,location).catch((err:any)=>err)
 const routes: Array<RouteConfig> = [
   {
     path: "/",
